@@ -1,0 +1,19 @@
+디버깅 방법
+
+디버그 > 창 : 조사식,호출스택 등
+CTRL + ALT + W, 1 : 조사식
+
+F9 : Break Point
+F5  : 다음 Break Point까지 실행
+for문에서 i=100일때 보고싶으면 if (i == 100) 추가하고 Break Point 걸고 F5
+
+
+# 시작
+  F10 : 디버깅 시작
+  CTRL + F10 : 현재 마우스부터 디버깅 시작
+# 실행
+  F10 : Step Over, 한줄씩 실행
+  CTRL + F10 : 현재 마우스까지 실행 (for문 탈출할때 유용)
+  F11 : Step Into, 한줄씩 실행 (함수 진입)
+# 종료
+  CTRL + F5: 디버깅 종료
